@@ -1,0 +1,103 @@
+body {
+    font-family: "Lato", sans-serif;
+}
+
+.a1 {
+    background: red;
+}
+
+.a2 {
+    background: purple;
+}
+
+.logo img {
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+
+}
+
+.icons {
+    display: grid;
+}
+
+/* #mysidenav {
+    display: grid;
+} */
+
+.sidenav a.fa {
+    color: red;
+    grid-column-end: 3;
+
+}
+
+.amap {
+    grid-column: 1/-1;
+    grid-row: 3/4;
+}
+
+iframe {
+    width: 100%;
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-image: linear-gradient(to bottom, #12376f, #006086, #158489, #6fa48b, #b6c19c);;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #f1f1f1;
+    display: grid;
+    transition: 0.3s;
+    text-align: center;
+}
+
+.sidenav a:hover {
+    color: #1760d6;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+#container {
+    display: grid;
+    transition: margin-left .5s;
+    /* padding: 16px;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); */
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr auto;
+    grid-gap: 20px;
+}
+
+#container img {
+    /* height: 1fr;
+    width: 1fr; */
+    height: 500px;
+    width: 100%;
+}
+
+span {
+    color: red;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
