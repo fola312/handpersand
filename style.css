@@ -48,7 +48,7 @@ iframe {
     z-index: 1;
     top: 0;
     left: 0;
-    background-image: linear-gradient(to bottom, #12376f, #006086, #158489, #6fa48b, #b6c19c);;
+    background-image: linear-gradient(to bottom, #12376f, #006086, #158489, #6fa48b, #b6c19c);
     overflow-x: hidden;
     transition: 0.5s;
     padding-top: 60px;
